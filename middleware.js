@@ -13,7 +13,7 @@ import { NextResponse, NextRequest } from 'next/server';
   // (in the case of "test.vercel.app", "vercel.app" is the root URL)
   const currentHost =
     process.env.NODE_ENV == 'production'
-      ? hostname?.replace(`.pets.vercel.app`, '') // PUT YOUR DOMAIN HERE
+      ? hostname?.replace(`.nextnews-ruddy.vercel.app`, '') // PUT YOUR DOMAIN HERE
       : hostname?.replace(`.localhost:3000`, '');
 
   // Prevent security issues – users should not be able to canonically access
