@@ -1,0 +1,8 @@
+.news-container {
+  display: grid;
+  align-items: flex-start;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 45px;
+  margin: 220px auto;
+  width: 90%;
+}
