@@ -20,4 +20,6 @@ The App Supports subdomains (currently [http://cats.localhost:3000](http://cats.
 
 API routes are implemented for user Authentication which then store login credentials hashed using bcrypt on Mongodb Atlas.
 
+Hosted on Vercel [https://nextnews-ruddy.vercel.app/](https://nextnews-ruddy.vercel.app/).
+
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
